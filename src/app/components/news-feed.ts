@@ -1,7 +1,4 @@
-/**
- * Created by jonayet on 11/25/16.
- */
-import {Component, Optional} from '@angular/core';
+import {Component} from '@angular/core';
 import {MdSnackBar} from '@angular/material';
 
 @Component({
@@ -19,7 +16,7 @@ import {MdSnackBar} from '@angular/material';
     </md-card>
   `
 })
-export class NewsFeedContent {
+export class NewsFeedComponent {
     constructor(private snackbar: MdSnackBar) {
 
     }

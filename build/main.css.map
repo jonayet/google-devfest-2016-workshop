@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///webpack:///src/style/theme.css"],"names":[],"mappings":"AAAA,oBACI,eAAkB,CAGtB,mBACI,eAAkB","file":"main.css","sourcesContent":["md-card.light-theme {\n    background: white;\n}\n\nmd-card.dark-theme {\n    background: black;\n}\n\n\n// WEBPACK FOOTER //\n// webpack:///src/style/theme.css"],"sourceRoot":""}
