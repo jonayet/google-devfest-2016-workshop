@@ -1,0 +1,15 @@
+<md-card>
+    <md-card-title>Todo List</md-card-title>
+    <md-card-content>
+        <md-list>
+            <md-list-item *ngFor="let todoItem of todoItems">
+                <md-checkbox [checked]="todoItem.isDone" (change)="onTodoItemStateChange(todoItem, $event)" [class.todo-done]="todoItem.isDone" md-tooltip="{{todoItem.description}}" tooltip-position="after">
+                    {{todoItem.title}}
+                </md-checkbox>
+            </md-list-item>
+        </md-list>
+        <span class="add-todo">
+          <button md-fab (click)="addTodoItem()"><md-icon>+</md-icon></button>
+        </span>
+    </md-card-content>
+</md-card>

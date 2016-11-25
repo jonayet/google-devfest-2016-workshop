@@ -6,9 +6,9 @@ import {Component} from '@angular/core';
     styleUrls: ['./app.style.css']
 })
 export class AppComponent {
-    title: string = 'My Angular App';
-    subtitle: string = 'from Angular 2 Quickstart';
-    description: string = 'This is gonna be a super awesome web app!';
+    title: string = 'TODO App';
+    subtitle: string = 'Create your TODO';
+    description: string = 'This project is created for Angular 2 with Material & Firebase workshop purpose';
     constructor() {
 
     }

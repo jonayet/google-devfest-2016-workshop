@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
-import {NewsFeedComponent} from './components/news-feed';
+import {TodoListComponent} from './components/todo-list/component';
+import {PromptUserComponent} from './components/prompt-user/component';
 
 export const routes: Routes = [
-    { path: '',  component: NewsFeedComponent }
+    { path: ':userId',  component: TodoListComponent },
+    { path: '**', component: PromptUserComponent }
 ];

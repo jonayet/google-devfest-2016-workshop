@@ -1,1 +1,1 @@
-# Angular 2 Quickstart with Angular Material, RxJs and Webpack.
+# Google DevFest: Workshop on Designing Modern Web Aps using Angular 2 and Firebase.

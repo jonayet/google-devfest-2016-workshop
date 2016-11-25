@@ -1,0 +1,4 @@
+<md-card>
+    <md-input placeholder="Enter your name" [(ngModel)]="user.name"></md-input>
+    <button md-raised-button color="primary" [disabled]="!user.name" (click)="createUser()">CREATE TODO</button>
+</md-card>

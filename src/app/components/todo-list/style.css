@@ -1,0 +1,10 @@
+.todo-done {
+    text-decoration: line-through;
+}
+
+.add-todo {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

@@ -1,0 +1,11 @@
+<md-card>
+    <md-toolbar color="primary">Add TODO</md-toolbar>
+    <br>
+    <md-card-content>
+        <md-input placeholder="Enter title" [(ngModel)]="todoItem.title"></md-input>
+        <p>
+            <md-textarea placeholder="Enter description" [(ngModel)]="todoItem.description"></md-textarea>
+        </p>
+        <button md-raised-button color="primary" [disabled]="!todoItem.title" (click)="createTodoItem()">CREATE TODO</button>
+    </md-card-content>
+</md-card>
