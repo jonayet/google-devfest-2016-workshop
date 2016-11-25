@@ -8,7 +8,7 @@ import {Component} from '@angular/core';
 export class AppComponent {
     title: string = 'TODO App';
     subtitle: string = 'Create your TODO';
-    description: string = 'This project is created for Angular 2 with Material & Firebase workshop purpose';
+    description: string = 'This project is created for Google DevFest 2016 for Designing Modern Web Apps using Angular 2 & Firebase workshop';
     constructor() {
 
     }
